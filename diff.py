@@ -163,8 +163,8 @@ if __name__ == "__main__":
                            base_dir_b / 'colmap_0/images/camera_0001.png'), 'colmap_0/images/camera_0001.png differs'
 
     # immersive undist
-    # check_immersive_undist = True
-    check_immersive_undist = False
+    check_immersive_undist = True
+    # check_immersive_undist = False
     if check_immersive_undist:
         base_dir_a = Path.home() / 'workspace/dataset/immersive/before/02_Flames_undist'
         base_dir_b = Path.home() / 'workspace/dataset/immersive/after/02_Flames_undist'
