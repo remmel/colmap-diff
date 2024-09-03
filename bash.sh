@@ -47,3 +47,8 @@ git checkout main
 python script/pre_immersive_undistorted.py --videopath ../dataset/immersive/before/02_Flames
 git checkout pre-refactor
 python script/pre_immersive_undistorted.py --videopath ../dataset/immersive/after/02_Flames
+
+# basic checks
+diff before/02_Flames_undist/colmap_0/sparse/0/cameras.bin after/02_Flames_undist/colmap_0/sparse/0/cameras.bin #same, complete check in py
+#diff before/02_Flames_undist/colmap_0/sparse/0/images.bin after/02_Flames_undist/colmap_0/sparse/0/images.bin #differ, complete check in py
+diff before/02_Flames_undist/colmap_0/images/camera_0001.png after/02_Flames_undist/colmap_0/images/camera_0001.png #same
