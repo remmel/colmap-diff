@@ -4,6 +4,8 @@ Thoses pre-scripts extract frames from mp4 cameras and apply colmap across the c
 
 ```shell
 git clone git@github.com:remmel/colmap-diff.git --recursive
+cd colmap-diff
+python diff.py
 ```
 
 
